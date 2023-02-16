@@ -1,0 +1,14 @@
+
+@font-face {
+  font-family: 'ggsans-bold';
+  src: local("GGSansBold"),
+  url("./fonts/ggsans-Bold.ttf");
+}
+body {
+  margin: 0;
+  font-family:ggsans-bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+

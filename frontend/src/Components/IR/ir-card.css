@@ -1,0 +1,55 @@
+.card {
+    width: auto;
+    height: auto;
+    background-color: #333;
+    position: relative;
+    margin: 0.3rem auto;
+    margin-bottom: 0.3rem;
+    max-width: 1200px;
+    overflow-y: hidden;
+}
+
+.card:hover {
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+
+.card-body {
+    padding: rem 0 !important;
+}
+
+.card-text {
+    font-size: .9rem;
+    padding: 0.4rem 1.9rem;
+}
+
+#content {
+    width: auto;
+    overflow: scroll;
+    height: 100vh;
+
+}
+
+.card-container {
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1600px) {
+    h4{
+        font-size: xx-large;
+    }
+    .table{
+        font-size: medium !important;
+        
+    }
+    .tooltip > .tooltip-inner {
+        max-width: 500px;
+      }
+  }
+
+.table {
+    background-color: white;
+    margin-bottom: 0;
+    width: auto;
+    font-size: smaller;
+    font-family:'ggsans-Bold' ;
+}

@@ -1,0 +1,152 @@
+/* body{
+    background: black !important;
+} */
+#refresh{
+      margin-top:11px;
+      margin-right: 11px;
+      border: 0px;
+      font-size: 16px;
+      padding: 12px 20px;
+      border-radius: 14px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+     
+      backdrop-filter: blur(20px);
+      font-weight: 600;
+      box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+      transition: 0.8s;
+      cursor: pointer;
+      pointer-events: auto;
+      color: black;
+      background: white;
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      gap: 12px;
+    
+    }
+    #refresh:hover {
+        background: black;
+        color:white;
+        transform: translateY(-3px);
+      }
+
+#info{
+    margin-top:4px;
+    border: 0px;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+   
+    backdrop-filter: blur(20px);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.8s;
+    cursor: pointer;
+    pointer-events: auto;
+    color: black;
+    background: white;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 0;
+    margin-left: 7px;
+  
+}
+#info:hover{
+    background: black;
+    color:white;
+    transform: translateY(-3px);
+}
+
+.card {
+    width: auto;
+    height: auto;
+    background-color: rgba(0,0,0,.5) !important;
+    position: relative;
+    margin: 0.3rem auto;
+    margin-bottom: 0.3rem;
+    max-width: fill !important;
+    overflow-y: hidden;
+}
+
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+
+.card-body {
+    padding:rem 0 !important;
+}
+
+.card-text{
+    font-size: .9rem;
+    padding: 0.4rem 1.9rem; 
+}
+
+#forms{
+    max-width: 600px;
+    margin: auto;
+}
+
+@media screen and (min-width: 1600px) {
+    .card-text{
+        font-size: 1.5rem !important;
+    }
+    h4{
+        font-size: xx-large;
+    }
+    .table{
+        font-size: medium !important;
+        
+    }
+    .tooltip > .tooltip-inner {
+        max-width: 500px;
+      }
+  }
+
+#content{
+    width: auto;
+    overflow:scroll ;
+    height: 100vh;
+    padding-left: 5px ;
+    padding-right: 5px ;
+}
+
+.message{
+    margin-top: 10px;
+}
+
+.table {
+    background-color: white;
+    margin-bottom: 0;
+    width: auto;
+    font-size: smaller;
+    font-family:'ggsans-Bold' ;
+}
+
+
+#button-tooltip >.tooltip-inner{
+    background-color: white;
+    padding: 0;
+}
+
+  @media only screen and (max-width:600px) {
+#Videos {
+    margin-top: 22px !important;
+}
+
+#Photos {
+    margin-top: 28px !important;
+
+}
+
+h5 {
+    font-size: small;
+}
+
+#refresh {
+    font-size: small;
+    padding: 10px;
+    margin-top: 60px;
+}
+
+.card-title {
+    font-size: large;
+}
+  }
+
+
+

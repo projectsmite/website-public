@@ -1,0 +1,165 @@
+#main {
+  background:  linear-gradient(#141e30, #243b55);;
+}
+
+h1 {
+    color: white;
+    
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+/* #hardware {
+   background-color: white; 
+
+   margin-left: -15px !important;
+   margin-right: -12.3px;
+   margin-bottom: -15px;
+   
+} */
+
+#smitelogo {
+  position: absolute;
+  top: 0px;
+  margin-top: 11px;
+  margin-left: 11px;
+  width: 100px;
+  height: 40px;
+  left: 0;
+}
+
+#login{
+  margin-top:11px;
+  margin-right: 11px;
+  border: 0px;
+  font-size: 18px;
+  padding: 12px 20px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+ 
+  backdrop-filter: blur(20px);
+  font-weight: 600;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.8s;
+  cursor: pointer;
+  pointer-events: auto;
+  color: black;
+  background: white;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  gap: 12px;
+
+}
+#login:hover {
+    background: black;
+    color:white;
+    transform: translateY(-3px);
+  }
+
+  .slider {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    width: 1000px;
+    height: 600px;
+    border-radius: 10px;
+  }
+  
+  .right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+  }
+  
+  .slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+  }
+
+#first-half {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+
+
+  #rfid-col,#camera-col,#ir-col {
+    /* From https://css.glass */
+background: rgba(14, 66, 122, 0.22);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.3px);
+-webkit-backdrop-filter: blur(7.3px);
+border: 1px solid rgba(25, 99, 177, 0.19);
+
+margin: 0.5rem;
+  }
+
+  /* #rfid-col:hover {
+    background: rgba(255, 255, 255, 0.22);
+  } */
+
+  @media only screen and (max-width:700px) {
+#textblock {
+  position: relative !important;
+  
+}
+#textblock > p{
+  /* font-size: smaller;
+  max-width: 40% !important ; */
+  max-width: 100% !important;
+  float:none !important;
+  margin: 5px !important;
+  margin-bottom: 0 !important;
+  text-align: center !important;
+}
+#first-half {
+  margin-top: 30px;
+}
+
+#login {
+  font-size: 12px;
+}
+
+#smitelogo {
+  width: 70px;
+  height: 35px;
+}
+
+  }
+
+
+
